@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    height: 2000px;
+    width: 100%;
+    background-color: crimson;
+}
+
+.data{
+    height: 70px;
+    width: 90px;
+    display: inline-block;
+    padding: 15px;
+    background-color: indianred;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+#a{
+    position: relative;
+    top: 21px;
+}
+
+#b{
+    position: relative;
+    top: 21px;
+}
+
+#c{
+    position: sticky;
+    top: 10px;
+}

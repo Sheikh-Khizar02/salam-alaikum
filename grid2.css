@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;  
+}
+
+.container div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.item1 {grid-area: header;
+    height: 45px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1px;
+    justify-content: right;
+    margin-right: 10px;
+      font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+li{
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.item2 {grid-area: menu;
+font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.item3 {grid-area: main;
+font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.item5 {grid-area: footer;
+font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; 
+}
